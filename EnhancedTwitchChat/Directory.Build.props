@@ -1,0 +1,6 @@
+﻿<Project>
+  <PropertyGroup>
+    <!-- Configure this to point to your Beat Saber install path -->
+    <BeatSaberPath>C:\Program Files (x86)\Steam\steamapps\common\Beat Saber</BeatSaberPath>
+  </PropertyGroup>
+</Project>

@@ -36,29 +36,29 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="0Harmony">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\0Harmony.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\0Harmony.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="BeatSaberCustomUI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Plugins\BeatSaberCustomUI.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Plugins\BeatSaberCustomUI.dll</HintPath>
     </Reference>
     <Reference Include="BeatSaverDownloader">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Plugins\BeatSaverDownloader.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Plugins\BeatSaverDownloader.dll</HintPath>
     </Reference>
     <Reference Include="IllusionInjector, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\IllusionInjector.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\IllusionInjector.dll</HintPath>
     </Reference>
     <Reference Include="IllusionPlugin">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\IllusionPlugin.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\IllusionPlugin.dll</HintPath>
     </Reference>
     <Reference Include="SongBrowserPlugin">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Plugins\SongBrowserPlugin.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Plugins\SongBrowserPlugin.dll</HintPath>
     </Reference>
     <Reference Include="SongLoaderPlugin">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Plugins\SongLoaderPlugin.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Plugins\SongLoaderPlugin.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -70,58 +70,58 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="TextMeshPro-1.0.55.2017.1.0b12, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\TextMeshPro-1.0.55.2017.1.0b12.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\TextMeshPro-1.0.55.2017.1.0b12.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AssetBundleModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.ImageConversionModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.ImageConversionModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIElementsModule">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UIModule">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestTextureModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UnityWebRequestWWWModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VideoModule, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.VideoModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VRModule">
-      <HintPath>..\..\..\..\..\..\beatsaber\Beat Saber_Data\Managed\UnityEngine.VRModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.VRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XRModule">
-      <HintPath>..\..\..\..\..\..\steam\steamapps\common\Beat Saber\Beat Saber_Data\Managed\UnityEngine.XRModule.dll</HintPath>
+      <HintPath>$(BeatSaberPath)\Beat Saber_Data\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -2933,6 +2933,7 @@
     <None Include="Chat\websocket-sharp\doc\.gitignore" />
     <None Include="Chat\websocket-sharp\doc\doc.sh" />
     <None Include="Chat\websocket-sharp\websocket-sharp.snk" />
+    <None Include="Directory.Build.props" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Resources\Emojis\1f468-1f3fb-200d-1f9b0.png" />
@@ -3094,7 +3095,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy /Y "$(TargetDir)$(TargetFileName)" "C:\Beat Saber\Plugins"</PostBuildEvent>
+    <PostBuildEvent>copy /Y "$(TargetDir)$(TargetFileName)" "$(BeatSaberPath)\Plugins"</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>
